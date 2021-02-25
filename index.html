@@ -5,31 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Веб Студия</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css" 
+    integrity="sha512-Zx6MlUMKSVJoQ+83OwhdILe8cSEsCzfqThJd7J/VA2UrK6Ctj85p+xzqfyuNXE5B1k25uUdmJ2OzItbBy9GHAQ==" 
+    crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <a href="">
-            <span>Web</span>Studio
+
+   <!--HEADER-->
+
+    <header class="header">
+        <a class="logo link" href="">
+            <span class="logo-web">Web</span>Studio
         </a>
-        <nav>
-        <ul>
-            <li>
-                <a href="./index.html">Студия</a>
+        <nav class="navigation">
+        <ul class="navigation-list list">
+            <li class="navigation-item">
+                <a class="navigation-link link" href="./index.html">
+                    Студия
+                </a>
             </li>
-            <li>
-                <a href="./portfolio.html">Портфолио</a>
+            <li class="navigation-item">
+                <a class="navigation-link link" href="./portfolio.html">
+                    Портфолио
+                </a>
             </li>
-            <li>
-                <a href="">Контакты</a>
+            <li class="navigation-item">
+                <a class="navigation-link link" href="">
+                    Контакты
+                </a>
             </li>
         </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="contact list">
+            <li class="contact-item">
+                <a class="email-link link" href="mailto:info@devstudio.com">
+                    info@devstudio.com
+                </a>
+            </li>
+            <li class="contact-item">
+                <a class="tel-link link" href="tel:+380961111111">
+                    +38 096 111 11 11
+                </a>
+            </li>
         </ul>
    </header> 
+
+   <!--MAIN-->
+
    <main>
         <section>
             <h1>Эффективные решения для вашего бизнеса</h1>
@@ -38,7 +63,7 @@
             </button>
         </section>
         <section>
-            <ul>
+            <ul class="list">
                 <li>
                     <h3>Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -57,7 +82,7 @@
                 </li>
             </ul>
             <h2>Чем мы занимаемся</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./images/box-1.jpg" alt="человек пишет код" width="370" height="294">
                 </li>
@@ -71,7 +96,7 @@
         </section>
         <section>
             <h2>Наша команда</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./images/worker-1.jpg" alt="мужчина в очках и бардовой рубашке" width="270" height="260">
                     <h3>Игорь Демьяненко</h3>
@@ -95,20 +120,23 @@
             </ul>
         </section>
    </main>
+
+   <!--FOOTER-->
+
    <footer>
-        <a href="">
+        <a class="link" href="">
             <span>Web</span>Studio
         </a>
-        <address>
-            <ul>
+        <address class="address">
+            <ul class="list">
                 <li>
-                    <a href="https://goo.gl/maps/gpuPZWPUitN2GGkdA" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
+                    <a class="link" href="https://goo.gl/maps/gpuPZWPUitN2GGkdA" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
                 <li>
-                    <a href="mailto:info@example.com">info@example.com</a>
+                    <a class="link" href="mailto:info@example.com">info@example.com</a>
                 </li>
                 <li>
-                    <a href="tel:+380991111111">+38 099 111 11 11</a>
+                    <a class="link" href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>
         </address>
