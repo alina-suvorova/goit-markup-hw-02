@@ -45,6 +45,9 @@ body {
 .navigation-link:hover, .navigation-link:focus {
     color: var(--accept-color);
 }
+.current {
+    color: var(--accept-color)
+}
 .email-link, .tel-link {
     font-weight: 500;
     font-size: 14px;
@@ -164,6 +167,10 @@ body {
     letter-spacing: 0.03em;
     color: var(--dark-theme-text);
 }
+.address-link:hover, .address-link:focus {
+    color: var(--accept-color);
+}
+
 /* END FOOTER */
 
 
